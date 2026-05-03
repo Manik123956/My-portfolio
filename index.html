@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maniklal Mondal — Backend Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Mono:wght@300;400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- ── NOISE OVERLAY ── -->
+  <div class="noise"></div>
+
+  <!-- ── NAVBAR ── -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">MM<span class="dot">.</span></a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#profiles">Profiles</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-socials">
+        <a href="https://github.com/Manik123956" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/maniklal-mandal-52a2a6379/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://leetcode.com/u/Manik0000/" target="_blank" title="LeetCode"><i class="fas fa-code"></i></a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ── HERO ── -->
+  <section id="home" class="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-glow glow-1"></div>
+    <div class="hero-glow glow-2"></div>
+    <div class="hero-content">
+      <div class="hero-text">
+        <p class="hero-eyebrow"><span class="eyebrow-line"></span>Available for Backend Roles</p>
+        <h1 class="hero-name">
+          <span class="line-reveal">Maniklal</span>
+          <span class="line-reveal delay-1">Mondal<span class="dot">.</span></span>
+        </h1>
+        <p class="hero-role line-reveal delay-2">
+          <span class="role-tag">Backend Developer</span>
+          &nbsp;&mdash;&nbsp;Node.js · Express · MongoDB
+        </p>
+        <p class="hero-bio line-reveal delay-3">
+          B.Tech CSE student crafting scalable server-side systems,
+          RESTful APIs, and robust authentication flows. 400+ DSA problems solved.
+        </p>
+        <div class="hero-cta line-reveal delay-4">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="mailto:mm32748045@gmail.com" class="btn btn-ghost">Hire Me</a>
+        </div>
+        <div class="hero-stats line-reveal delay-5">
+          <div class="stat"><span class="stat-num" data-target="400">0</span><span class="stat-plus">+</span><p>Problems Solved</p></div>
+          <div class="stat-divider"></div>
+          <div class="stat"><span class="stat-num" data-target="3">0</span><p>Projects Built</p></div>
+          <div class="stat-divider"></div>
+          <div class="stat"><span class="stat-num" data-target="73">0</span><span class="stat-dec">/10</span><p>CGPA</p></div>
+        </div>
+      </div>
+      <div class="hero-image-wrap line-reveal delay-2">
+        <div class="hero-image-ring ring-outer"></div>
+        <div class="hero-image-ring ring-mid"></div>
+        <div class="hero-image-container">
+          <img
+            src="profile.jpg"
+            alt="Maniklal Mondal"
+            class="hero-img"
+            onerror="this.style.display='none'; document.querySelector('.hero-img-fallback').style.display='flex';"
+          />
+          <div class="hero-img-fallback" aria-hidden="true">
+            <span>MM</span>
+          </div>
+        </div>
+        <div class="hero-badge">
+          <i class="fas fa-server"></i>
+          <span>Backend Dev</span>
+        </div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-hint">
+      <span>Scroll</span>
+      <i class="fas fa-arrow-down"></i>
+    </a>
+  </section>
+
+  <!-- ── ABOUT ── -->
+  <section id="about" class="about section">
+    <div class="container">
+      <div class="section-label"><span>01</span> About</div>
+      <div class="about-grid">
+        <div class="about-text">
+          <h2 class="section-title">Building the Web<br><em>from the inside out.</em></h2>
+          <p>
+            I'm a second-year B.Tech Computer Science student at a Kolkata institution, deeply passionate
+            about backend engineering. I specialize in designing and building the server-side systems
+            that power modern applications — from clean REST APIs to real-time Socket.io features.
+          </p>
+          <p>
+            With 400+ problems solved across competitive programming platforms, I bring a strong
+            algorithmic mindset to every project. I'm actively seeking Backend or SDE internship/job roles
+            where I can contribute meaningfully and grow fast.
+          </p>
+          <div class="about-info">
+            <div class="info-item">
+              <i class="fas fa-graduation-cap"></i>
+              <div>
+                <span>B.Tech — CSE</span>
+                <small>2024–2028 · CGPA 7.3</small>
+              </div>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <span>Kolkata, West Bengal</span>
+                <small>India</small>
+              </div>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <span>mm32748045@gmail.com</span>
+                <small>Available for opportunities</small>
+              </div>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-phone"></i>
+              <div>
+                <span>+91-9732748045</span>
+                <small>WhatsApp / Call</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about-visual">
+          <div class="terminal">
+            <div class="terminal-bar">
+              <span class="tb-dot red"></span>
+              <span class="tb-dot yellow"></span>
+              <span class="tb-dot green"></span>
+              <span class="tb-title">maniklal@dev:~</span>
+            </div>
+            <div class="terminal-body" id="terminal-body">
+              <p class="t-line"><span class="t-prompt">$</span> <span class="t-cmd">whoami</span></p>
+              <p class="t-output">Maniklal Mondal — Backend Developer</p>
+              <p class="t-line"><span class="t-prompt">$</span> <span class="t-cmd">cat skills.txt</span></p>
+              <p class="t-output">Node.js · Express · MongoDB · REST APIs</p>
+              <p class="t-output">Socket.io · SQL · Git · Linux</p>
+              <p class="t-line"><span class="t-prompt">$</span> <span class="t-cmd">echo $STATUS</span></p>
+              <p class="t-output t-green">Open to opportunities ✓</p>
+              <p class="t-line"><span class="t-prompt">$</span> <span class="t-cursor">_</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SKILLS ── -->
+  <section id="skills" class="skills section">
+    <div class="container">
+      <div class="section-label"><span>02</span> Skills</div>
+      <h2 class="section-title">Tech Stack &amp;<br><em>Proficiencies.</em></h2>
+
+      <div class="skills-tabs">
+        <button class="tab-btn active" data-tab="backend">Backend</button>
+        <button class="tab-btn" data-tab="languages">Languages</button>
+        <button class="tab-btn" data-tab="tools">Tools</button>
+        <button class="tab-btn" data-tab="cs">CS Fundamentals</button>
+      </div>
+
+      <div class="skills-content">
+
+        <div class="tab-panel active" id="tab-backend">
+          <div class="skill-grid">
+            <div class="skill-card" style="--delay:0.05s">
+              <div class="skill-icon"><i class="fab fa-node-js"></i></div>
+              <div class="skill-info">
+                <span>Node.js</span>
+                <div class="skill-bar"><div class="skill-fill" data-w="85"></div></div>
+              </div>
+            </div>
+            <div class="skill-card" style="--delay:0.1s">
+              <div class="skill-icon si-express"><i class="fas fa-bolt"></i></div>
+              <div class="skill-info">
+                <span>Express.js</span>
+                <div class="skill-bar"><div class="skill-fill" data-w="83"></div></div>
+              </div>
+            </div>
+            <div class="skill-card" style="--delay:0.15s">
+              <div class="skill-icon si-mongo"><i class="fas fa-leaf"></i></div>
+              <div class="skill-info">
+                <span>MongoDB</span>
+                <div class="skill-bar"><div class="skill-fill" data-w="80"></div></div>
+              </div>
+            </div>
+            <div class="skill-card" style="--delay:0.2s">
+              <div class="skill-icon si-api"><i class="fas fa-exchange-alt"></i></div>
+              <div class="skill-info">
+                <span>REST APIs</span>
+                <div class="skill-bar"><div class="skill-fill" data-w="88"></div></div>
+              </div>
+            </div>
+            <div class="skill-card" style="--delay:0.25s">
+              <div class="skill-icon si-auth"><i class="fas fa-shield-alt"></i></div>
+              <div class="skill-info">
+                <span>Authentication</span>
+                <div class="skill-bar"><div class="skill-fill" data-w="78"></div></div>
+              </div>
+            </div>
+            <div class="skill-card" style="--delay:0.3s">
+              <div class="skill-icon si-socket"><i class="fas fa-plug"></i></div>
+              <div class="skill-info">
+                <span>Socket.io</span>
+                <div class="skill-bar"><div class="skill-fill" data-w="72"></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-panel" id="tab-languages">
+          <div class="lang-grid">
+            <div class="lang-card" style="--delay:0.05s"><i class="fas fa-code"></i><span>C</span></div>
+            <div class="lang-card" style="--delay:0.1s"><i class="fas fa-code"></i><span>C++</span></div>
+            <div class="lang-card" style="--delay:0.15s"><i class="fab fa-js-square"></i><span>JavaScript</span></div>
+            <div class="lang-card" style="--delay:0.2s"><i class="fas fa-database"></i><span>SQL</span></div>
+          </div>
+        </div>
+
+        <div class="tab-panel" id="tab-tools">
+          <div class="lang-grid">
+            <div class="lang-card" style="--delay:0.05s"><i class="fab fa-git-alt"></i><span>Git</span></div>
+            <div class="lang-card" style="--delay:0.1s"><i class="fab fa-github"></i><span>GitHub</span></div>
+            <div class="lang-card" style="--delay:0.15s"><i class="fas fa-paper-plane"></i><span>Postman</span></div>
+            <div class="lang-card" style="--delay:0.2s"><i class="fas fa-laptop-code"></i><span>VS Code</span></div>
+            <div class="lang-card" style="--delay:0.25s"><i class="fab fa-linux"></i><span>Linux</span></div>
+          </div>
+        </div>
+
+        <div class="tab-panel" id="tab-cs">
+          <div class="lang-grid">
+            <div class="lang-card" style="--delay:0.05s"><i class="fas fa-sitemap"></i><span>DSA</span></div>
+            <div class="lang-card" style="--delay:0.1s"><i class="fas fa-cubes"></i><span>OOP</span></div>
+            <div class="lang-card" style="--delay:0.15s"><i class="fas fa-database"></i><span>DBMS</span></div>
+            <div class="lang-card" style="--delay:0.2s"><i class="fas fa-microchip"></i><span>OS</span></div>
+            <div class="lang-card" style="--delay:0.25s"><i class="fas fa-network-wired"></i><span>Computer Networks</span></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PROJECTS ── -->
+  <section id="projects" class="projects section">
+    <div class="container">
+      <div class="section-label"><span>03</span> Projects</div>
+      <h2 class="section-title">Things I've<br><em>Built.</em></h2>
+      <div class="projects-grid">
+
+        <div class="project-card" style="--delay:0.05s">
+          <div class="project-num">01</div>
+          <div class="project-header">
+            <div class="project-icon"><i class="fas fa-layer-group"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/Manik123956" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">CRUD Web Application</h3>
+          <p class="project-desc">
+            A full-stack CRUD app with REST APIs, MongoDB and Express.js backend,
+            and a responsive UI with client-side validation.
+          </p>
+          <div class="project-tags">
+            <span>Node.js</span>
+            <span>Express.js</span>
+            <span>MongoDB</span>
+            <span>REST API</span>
+          </div>
+          <div class="project-features">
+            <div class="pf"><i class="fas fa-check-circle"></i> Full REST API implementation</div>
+            <div class="pf"><i class="fas fa-check-circle"></i> Responsive UI with validation</div>
+            <div class="pf"><i class="fas fa-check-circle"></i> MongoDB data persistence</div>
+          </div>
+        </div>
+
+        <div class="project-card featured" style="--delay:0.15s">
+          <div class="project-badge">Featured</div>
+          <div class="project-num">02</div>
+          <div class="project-header">
+            <div class="project-icon pi-url"><i class="fas fa-link"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/Manik123956" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">URL Shortener</h3>
+          <p class="project-desc">
+            Generates unique short links, handles redirections, and tracks click analytics
+            with a modular backend architecture using EJS templating.
+          </p>
+          <div class="project-tags">
+            <span>Node.js</span>
+            <span>Express.js</span>
+            <span>EJS</span>
+            <span>Analytics</span>
+          </div>
+          <div class="project-features">
+            <div class="pf"><i class="fas fa-check-circle"></i> Unique short link generation</div>
+            <div class="pf"><i class="fas fa-check-circle"></i> Click tracking &amp; analytics</div>
+            <div class="pf"><i class="fas fa-check-circle"></i> Modular backend structure</div>
+          </div>
+        </div>
+
+        <div class="project-card" style="--delay:0.25s">
+          <div class="project-num">03</div>
+          <div class="project-header">
+            <div class="project-icon pi-ai"><i class="fas fa-microphone-alt"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/Manik123956" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">AI Virtual Assistant</h3>
+          <p class="project-desc">
+            Voice-controlled assistant using Web Speech API. Supports real-time commands,
+            text-to-speech, website launching, and smart search.
+          </p>
+          <div class="project-tags">
+            <span>JavaScript</span>
+            <span>Web Speech API</span>
+            <span>TTS</span>
+          </div>
+          <div class="project-features">
+            <div class="pf"><i class="fas fa-check-circle"></i> Voice recognition &amp; commands</div>
+            <div class="pf"><i class="fas fa-check-circle"></i> Real-time text-to-speech</div>
+            <div class="pf"><i class="fas fa-check-circle"></i> Website launch &amp; search</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CODING PROFILES ── -->
+  <section id="profiles" class="profiles section">
+    <div class="container">
+      <div class="section-label"><span>04</span> Coding Profiles</div>
+      <h2 class="section-title">Find Me<br><em>Online.</em></h2>
+      <div class="profiles-grid">
+
+        <a href="https://github.com/Manik123956" target="_blank" class="profile-card pc-github">
+          <div class="pc-icon"><i class="fab fa-github"></i></div>
+          <div class="pc-info">
+            <h3>GitHub</h3>
+            <p>Manik123956</p>
+            <span class="pc-sub">Source code &amp; projects</span>
+          </div>
+          <i class="fas fa-arrow-up-right-from-square pc-arrow"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/maniklal-mandal-52a2a6379/" target="_blank" class="profile-card pc-linkedin">
+          <div class="pc-icon"><i class="fab fa-linkedin-in"></i></div>
+          <div class="pc-info">
+            <h3>LinkedIn</h3>
+            <p>maniklal-mandal</p>
+            <span class="pc-sub">Professional network</span>
+          </div>
+          <i class="fas fa-arrow-up-right-from-square pc-arrow"></i>
+        </a>
+
+        <a href="https://leetcode.com/u/Manik0000/" target="_blank" class="profile-card pc-leetcode">
+          <div class="pc-icon"><i class="fas fa-code"></i></div>
+          <div class="pc-info">
+            <h3>LeetCode</h3>
+            <p>Manik0000</p>
+            <span class="pc-sub">400+ problems solved</span>
+          </div>
+          <i class="fas fa-arrow-up-right-from-square pc-arrow"></i>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTACT ── -->
+  <section id="contact" class="contact section">
+    <div class="container">
+      <div class="section-label"><span>05</span> Contact</div>
+      <h2 class="section-title">Let's Work<br><em>Together.</em></h2>
+      <div class="contact-grid">
+        <div class="contact-left">
+          <p>
+            I'm actively looking for backend / SDE internships and full-time opportunities.
+            If you have a role that fits, or just want to connect — my inbox is always open.
+          </p>
+          <div class="contact-items">
+            <a href="mailto:mm32748045@gmail.com" class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <span>mm32748045@gmail.com</span>
+            </a>
+            <a href="tel:+919732748045" class="contact-item">
+              <i class="fas fa-phone"></i>
+              <span>+91-9732748045</span>
+            </a>
+            <div class="contact-item no-link">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Kolkata, West Bengal, India</span>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="form-group">
+            <label for="cf-name">Name</label>
+            <input id="cf-name" type="text" placeholder="Your name" autocomplete="off" />
+          </div>
+          <div class="form-group">
+            <label for="cf-email">Email</label>
+            <input id="cf-email" type="email" placeholder="your@email.com" autocomplete="off" />
+          </div>
+          <div class="form-group">
+            <label for="cf-msg">Message</label>
+            <textarea id="cf-msg" rows="4" placeholder="What's on your mind?"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">
+            Send Message &nbsp;<i class="fas fa-paper-plane"></i>
+          </button>
+          <div class="form-success" id="form-success">
+            <i class="fas fa-check-circle"></i> Message sent! I'll get back to you soon.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <a href="#home" class="nav-logo">MM<span class="dot">.</span></a>
+        <p>Backend Developer · Kolkata, India</p>
+      </div>
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-socials">
+        <a href="https://github.com/Manik123956" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/maniklal-mandal-52a2a6379/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://leetcode.com/u/Manik0000/" target="_blank"><i class="fas fa-code"></i></a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Maniklal Mondal. Crafted with <i class="fas fa-heart"></i> in Kolkata.</p>
+    </div>
+  </footer>
+
+  <div class="back-to-top" id="back-to-top" title="Back to top">
+    <i class="fas fa-chevron-up"></i>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
